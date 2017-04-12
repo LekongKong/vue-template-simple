@@ -3,7 +3,7 @@
 
 > This template is created from [vue-template-simple](https://github.com/vuejs-templates/webpack-simple)
 
-> Best practice to create a simple Vue 2.0 project using vue-router & vuex
+> Easy to create a simple Vue 2.0 project with vue-router & vuex
 
 ### Usage
 
