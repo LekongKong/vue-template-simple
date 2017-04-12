@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'app',
@@ -14,25 +13,6 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  methods: {
-    ...mapActions([
-      'exampleAction'
-    ])
-  },
-  computed: {
-    ...mapGetters([
-      'exampleGetter'
-    ]),
-    title() {
-      return this.exampleGetter.title
-    },
-    content() {
-      return this.exampleGetter.content
-    }
-  },
-  created() {
-    this.exampleAction({title: 'This is Title...', content: 'This is Content... Bla Bla Bla...'})
-  }
 }
 </script>
 
