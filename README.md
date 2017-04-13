@@ -1,9 +1,7 @@
 # vue-template-simple
 > A simple Vue 2.0 & vue-router & vuex & Webpack & `vue-loader` setup for quick prototyping.
 
-> This template is created from [vue-template-simple](https://github.com/vuejs-templates/webpack-simple)
-
-> Easy to create a simple Vue 2.0 project with vue-router & vuex
+> This template refers to the official template[vuejs-templates/webpack-simple](https://github.com/vuejs-templates/webpack-simple)
 
 ### Usage
 
